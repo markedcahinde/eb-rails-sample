@@ -42,3 +42,10 @@ end
 To test the code, server is ran by rails through
 `rails server` to enable development environment, and
 `rails server -e production` to enable production environment
+
+After successful tests, the bundle is locked through
+`bundle lock --add-platform ruby && bundle lock --add-platform x86_64-linux`
+
+and application bundle is shipped as zip through
+`cd eb-rails && zip ../eb-rails-1.1.zip -r * .[^.]*`
+and lastly uploaded to S3
