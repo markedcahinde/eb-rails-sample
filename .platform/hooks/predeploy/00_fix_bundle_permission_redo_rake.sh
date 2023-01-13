@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 /bin/sh -c rbenv global
 
 chown -R webapp: /var/app/build/gems || echo "run failed"
