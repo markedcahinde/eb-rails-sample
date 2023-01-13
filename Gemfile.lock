@@ -650,7 +650,6 @@ DEPENDENCIES
   bootsnap
   bootstrap-sass
   breadcrumbs_on_rails
-  bundler (~> 2.3.26)
   capistrano-bundler
   capistrano-maintenance
   capistrano-rails
