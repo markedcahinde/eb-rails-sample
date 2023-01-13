@@ -650,6 +650,7 @@ DEPENDENCIES
   bootsnap
   bootstrap-sass
   breadcrumbs_on_rails
+  bundler (~> 2.4.1)
   capistrano-bundler
   capistrano-maintenance
   capistrano-rails
@@ -764,4 +765,4 @@ RUBY VERSION
    ruby 3.0.5p211
 
 BUNDLED WITH
-   2.3.26
+   2.4.1
