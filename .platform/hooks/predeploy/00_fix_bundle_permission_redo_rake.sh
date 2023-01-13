@@ -2,7 +2,7 @@
 
 set -x
 
-/bin/sh -c rbenv global
+rbenv global
 
 chown -R webapp: /var/app/build/gems || echo "run failed"
 chown -R webapp: /var/app/node_modules || echo "run failed"
